@@ -1,0 +1,9 @@
+# executes an MDI command
+
+# command source to execute
+string command
+
+---
+
+# whether the command was successful or not
+bool success

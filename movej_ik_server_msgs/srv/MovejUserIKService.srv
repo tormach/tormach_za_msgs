@@ -1,0 +1,13 @@
+geometry_msgs/Pose pose
+float64[] cached_joints
+uint8 arm_config
+int8 rev_count
+
+---
+float64[] joint_values
+uint8 arm_config
+int8 rev_count
+bool is_user_specification_coherent
+bool success
+int32[] warning_codes
+int32[] error_codes

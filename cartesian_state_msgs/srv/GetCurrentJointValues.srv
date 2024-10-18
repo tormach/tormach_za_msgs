@@ -1,0 +1,6 @@
+# fetches the current joint values
+
+---
+
+# current joint state
+sensor_msgs/JointState joint_state

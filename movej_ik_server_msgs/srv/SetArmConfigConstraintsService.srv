@@ -1,0 +1,3 @@
+uint8 allowed_arm_configs_mask
+---
+bool success

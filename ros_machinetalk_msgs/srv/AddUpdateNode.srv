@@ -1,0 +1,15 @@
+# adds or updates a Machinetalk node
+
+# User defined name for the Machinetalk instance
+string name
+
+# Machinetalk instance UUID
+string uuid
+
+# Pose where the physical machine is located in XYZABC coordinates
+float64[] pose
+
+---
+
+# wether the command was successful or not
+bool success

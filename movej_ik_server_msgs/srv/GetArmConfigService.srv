@@ -1,0 +1,9 @@
+float64[] joint_values
+---
+float64[] joint_values
+uint8 arm_config
+int8 rev_count
+bool success
+bool is_arm_config_valid
+int32[] warning_codes
+int32[] error_codes

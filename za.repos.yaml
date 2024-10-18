@@ -1,0 +1,7 @@
+repositories:
+  moveit_msgs:
+    # modifications for PILZ planner params
+    # Rebased to latest upstream 2023-03-31
+    type: git
+    url: https://bitbucket.org/tormachinc/moveit_msgs.git
+    version: 072f721d26a00687bbc2fe4ff7681cfa51b27177

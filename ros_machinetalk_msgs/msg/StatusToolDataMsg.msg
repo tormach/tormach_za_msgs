@@ -1,0 +1,9 @@
+int32 index
+int32 id
+float64 diameter
+float64 frontangle
+float64 backangle
+int32 orientation
+StatusPoseMsg offset
+string comment
+int32 pocket

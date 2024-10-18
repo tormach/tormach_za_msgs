@@ -1,0 +1,16 @@
+# converts a joint state into a robot pose using forward kinematics
+
+# the robots joint state
+sensor_msgs/JointState joint_state
+
+# Tool and base frame for which to calculate the pose
+string tool_frame_id
+string base_frame_id
+
+---
+
+# wether the command was successful or not
+bool success
+
+# resulting pose
+geometry_msgs/Pose pose

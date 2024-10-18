@@ -1,0 +1,10 @@
+# fetches the current robot pose
+
+# Tool and base frame for which to fetch the pose
+string tool_frame_id
+string base_frame_id
+
+---
+
+# current pose
+geometry_msgs/PoseStamped pose

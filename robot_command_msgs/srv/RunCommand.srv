@@ -1,0 +1,16 @@
+# runs a command on the given interpreter
+
+# command to execute
+uint8 COMMAND_UNDEFINED = 0
+uint8 COMMAND_START = 2
+uint8 COMMAND_STOP = 3
+uint8 COMMAND_PAUSE = 4
+uint8 COMMAND_CONTINUE = 5
+uint8 COMMAND_STEP = 6
+uint8 COMMAND_PAUSE_ACTIVE = 7
+uint8 command
+
+---
+
+# whether the command was successful or not
+bool success

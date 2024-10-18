@@ -1,0 +1,7 @@
+
+uuid_msgs/UniqueID identifier
+bool lock
+
+---
+
+bool result

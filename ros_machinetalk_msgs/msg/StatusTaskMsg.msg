@@ -1,0 +1,10 @@
+uint8 exec_state
+string file
+bool input_timeout
+bool is_position
+bool optional_stop
+int32 read_line
+uint8 task_mode
+uint8 task_paused
+uint8 task_state
+int32 total_lines

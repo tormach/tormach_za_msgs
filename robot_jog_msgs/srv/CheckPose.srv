@@ -1,0 +1,19 @@
+# check pose is reachable service
+
+# Target link name to check. Leave empty for default.
+string frame_name
+
+# List of axis names, you need to specify all axes of the pose.
+string[] axis_names
+
+# Absolute axis value. The order must be identical to axis_names.
+# The Unit is radians for rotary axes and meter for linear axes.
+float64[] values
+
+---
+
+# whether the command was successful or not
+bool success
+
+# if the target pose is the same as the current pose
+bool is_current

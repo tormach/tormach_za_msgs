@@ -1,0 +1,19 @@
+# sets a pose target for jogging
+
+# Target link name to jog. Leave empty for default.
+string frame_name
+
+# List of axis names, you don't need to specify all axes of the pose.
+string[] axis_names
+
+# Displacement or absolute axis value. The order must be identical to axis_names.
+# The Unit is radians for rotary axes and meter for linear axes.
+float64[] values
+
+---
+
+# wether the command was successful or not
+bool success
+
+# if the target pose is the same as the current pose
+bool is_current

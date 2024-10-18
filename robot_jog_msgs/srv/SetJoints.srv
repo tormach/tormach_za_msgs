@@ -1,0 +1,16 @@
+# sets a joint target for jogging
+
+# List of joint names, you don't need to specify all joints of the robot.
+string[] joint_names
+
+# Displacement or absolute joint value. The order must be identical to joint_names.
+# The Unit is radians for rotary joints and meter for linear joints.
+float64[] values
+
+---
+
+# wether the command was successful or not
+bool success
+
+# if the target joints values are the same as the current joint values
+bool is_current

@@ -1,0 +1,12 @@
+# reload interpreter service
+# reloads/restarts the interpreter worker node
+
+# wether to reload the loaded program or not
+bool reload_program
+# only reload the interpreter if it is required
+bool only_if_required
+
+---
+
+# whether the command was successful or not
+bool success
