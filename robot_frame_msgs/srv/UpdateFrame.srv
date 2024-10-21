@@ -1,0 +1,11 @@
+# updates/publishes a frame
+
+# Name of the frame to update
+string name
+# whether the frame is temporary or not
+bool temporary
+
+---
+
+# whether the command was successful or not
+bool success

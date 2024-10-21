@@ -1,0 +1,9 @@
+# checks if the interpreter needs to be reloaded
+
+---
+
+# whether the command was successful or not
+bool success
+
+# whether the interpreter needs to be reloaded, returns false if the command was not successful
+bool reload_required

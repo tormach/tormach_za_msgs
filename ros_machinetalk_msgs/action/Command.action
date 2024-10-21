@@ -1,0 +1,56 @@
+# goal definition
+
+# - enums
+uint8 RELEASE_BRAKE = 0
+uint8 ENGAGE_BRAKE = 1
+
+uint8 JOG_STOP = 0
+uint8 JOG_CONTINUOUS = 1
+uint8 JOG_INCREMENT = 2
+
+uint8 SPINDLE_FORWARD = 0
+uint8 SPINDLE_REVERSE = 1
+uint8 SPINDLE_OFF = 2
+uint8 SPINDLE_DECREASE = 3
+uint8 SPINDLE_INCREASE = 4
+uint8 SPINDLE_CONSTANT = 5
+
+uint8 TASK_MODE_MANUAL = 1
+uint8 TASK_MODE_AUTO = 2
+uint8 TASK_MODE_MDI = 3
+
+uint8 TASK_STATE_ESTOP = 1
+uint8 TASK_STATE_ESTOP_RESET = 2
+uint8 TASK_STATE_OFF = 3
+uint8 TASK_STATE_ON = 4
+
+# - commands
+uint32 cmd_id
+
+# - args
+string             interpreter  # (various)
+int32              line_number  # run_program
+uint8              mode         # set_task_mode, set_spindle
+uint8              state        # set_task_state
+string             file_name    # open_program
+string             command      # execute_mdi
+uint8              brake        # set_spindle_brake
+uint8              debug_level  # set_debug_level
+float64            scale        # set_feed_override
+bool               enable       # (various)
+uint8              index        # (various)
+uint8              jog_type     # jog
+uint8              axis         # jog
+float64            velocity     # jog, set_maximum_velocity
+float64            distance     # jog
+float64            value        # axis_{min,max}_position_limit
+StatusPoseMsg      pose         # set_teleop_vector
+StatusToolDataMsg  tooldata     # set_tool_offset
+
+---
+# result definition
+bool               success
+string             message
+---
+# feedback
+int32             sequence

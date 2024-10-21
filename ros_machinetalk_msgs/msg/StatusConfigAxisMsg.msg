@@ -1,0 +1,11 @@
+int32 index
+uint8 axis_type
+float64 backlash
+float64 max_ferror
+float64 max_position_limit
+float64 min_ferror
+float64 min_position_limit
+int32 home_sequence
+float64 max_acceleration
+float64 max_velocity
+string increments

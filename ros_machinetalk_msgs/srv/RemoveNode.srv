@@ -1,0 +1,5 @@
+# removes a Machinetalk node
+
+string uuid
+---
+bool success

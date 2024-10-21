@@ -1,0 +1,11 @@
+geometry_msgs/Pose pose
+uint8 arm_config
+int8 rev_count
+
+---
+float64[] joint_values
+uint8 arm_config
+int8 rev_count
+bool success
+int32[] warning_codes
+int32[] error_codes

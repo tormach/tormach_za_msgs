@@ -1,0 +1,11 @@
+# starts subprogram call
+
+# subprogram name
+string name
+# whether the subprogram should be called in a loop
+bool loop
+
+---
+
+# whether the command was successful or not
+bool success

@@ -1,0 +1,10 @@
+# load program service
+# loads a program
+
+# absolute program path
+string path
+
+---
+
+# whether the command was successful or not
+bool success

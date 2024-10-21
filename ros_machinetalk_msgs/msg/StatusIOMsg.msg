@@ -1,0 +1,9 @@
+bool estop
+bool flood
+bool lube
+bool lube_level
+bool mist
+StatusPoseMsg tool_offset
+StatusToolDataMsg[] tool_table
+int8 pocket_prepped
+int16 tool_in_spindle

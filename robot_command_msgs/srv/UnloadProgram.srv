@@ -1,0 +1,6 @@
+# unload program service
+# unloads a program
+---
+
+# whether the command was successful or not
+bool success

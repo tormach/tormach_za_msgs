@@ -1,0 +1,16 @@
+int32          index
+bool           enabled
+bool           fault
+float64        ferror_current
+float64        ferror_highmark
+bool           homed
+bool           homing
+bool           inpos
+float64        input
+bool           max_hard_limit
+bool           max_soft_limit
+bool           min_hard_limit
+bool           min_soft_limit
+float64        output
+bool           override_limits
+float64        velocity
