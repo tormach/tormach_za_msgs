@@ -1,19 +1,27 @@
 # Tormach ZA ROS 1 `*_msgs` packages
 
-The `*_msgs` ROS packages in this tree contain the definitions for all
-ROS interfaces used by Tormach ZA robots.  These may be used for
-connecting a ZA robot to a remote ROS 1 workspace.
+This distribution provides all ROS 1 interface (ROS topic, service and
+action) definitions needed to connect a remote ZA robot.
 
-This `README` tells how to install them in a ROS 1 workspace, how to
-connect to the ZA controller's ROS master, and provides pointers to
-Tormach documentation.
+Checked out into a ROS 1 workspace, this repo provides the custom
+`*_msgs` ROS packages used in ZA controllers.  It also provides a
+`vcstool` configuration to pull the ZA's customized `moveit_msgs`
+package, and package dependencies for `rosdeps` to install remaining
+standard interface packages.
+
+Starting from an existing ROS 1 workspace, this `README` shows how to
+install the interface packages, how to connect your workspace to the
+ZA controller's ROS master, and where to find additional
+documentation.
+
+ROS 2 support is planned but currently not available.
 
 
 ## Install Tormach ZA support packages in a ROS 1 workspace
 
 These instructions assume an existing ROS 1 workspace.
 
-Check out this git repo into your workspace.
+Check out this git repo under your workspace's `src/` directory.
 
     git clone https://github.com/tormach/tormach_za_msgs src/tormach_za_msgs
 
